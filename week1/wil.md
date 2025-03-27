@@ -1,17 +1,20 @@
 GDG 개발 입문 스터디 1일차 정리내용
 ======================================
 * 처음세팅
+
 git config --global user.name "UserName"
 git config --global user.email "UserEmail"
 
 git init
 
 * 파일등록
+
 git remote add origin "repository address"
 git branch -M main
 git push -u origin main
 
 * 파일 수정 후 업로드
+
 git add .
 git commit -m "commit message"
 git push origin main
