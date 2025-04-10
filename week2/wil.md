@@ -39,6 +39,10 @@ Squash and Merge
 Branch 내의 commit을 하나로 통합해 main 브랜치로 병합함.
 
 git push origin main
+<<<<<<< HEAD
 브랜치 생성 후 vscode 터미널에서 지우기
 
 assembly
+=======
+브랜치 생성 후 vscode 터미널에서 지우기
+>>>>>>> 3b52de5ce86ddec13383458bb6ffc8220289283f
