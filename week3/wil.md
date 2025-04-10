@@ -74,7 +74,7 @@ s2d3f4g fourth commit
 5g568vk first commit
 ```
 reset은 너무 위험하니 revert를 사용하려고 하여 ```fifth commit```을 되돌리고 싶다면 
-어떤 명령어를 사용하면 되는지 적으시오. 
+어떤 명령어를 사용하면 되는지 적으시오?
 
 - 답: git revert a1s2d3f
 
