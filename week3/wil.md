@@ -46,7 +46,9 @@ Rebase and merge는 branch의 commit들이 모두 main으로 합쳐진다.
 첫 줄에 ```a1s2d3f (HEAD -> develop) docs: readme 추가```라는 log가 찍혔다.
 알 수 있는 사실을 모두 적으시오.
 
-- 답: H
+- 답:
+commit ID가 a1s2d3f로 시작한다.
+develop 브랜치에서 파일을 "docs: reame 추가"라는 commit 메시지를 통해 commit 했다.
 
 ### Q7
 ```git log --oneline```으로 commit의 기록을 확인해보니 아래와 같은 log를 확인 할 수 있었다.  
@@ -60,8 +62,8 @@ s2d3f4g fourth commit
 이때, fourth commit까지 제거하고 fourth commit과 fifth commit의 변경 사항은
 Staging Area에 남아 있길 바란다면 reset을 어떤 옵션과 함께 사용하면 되는지 적으시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
-
+- 답: git reset --soft 345hj26
+hi!
 ### Q8
 ```git log --oneline```으로 commit의 기록을 확인해보니 아래와 같은 log를 확인 할 수 있었다.
 ```
@@ -74,10 +76,11 @@ s2d3f4g fourth commit
 reset은 너무 위험하니 revert를 사용하려고 하여 ```fifth commit```을 되돌리고 싶다면 
 어떤 명령어를 사용하면 되는지 적으시오. 
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답: git revert a1s2d3f
 
 ### Q9
 여러 사람이 협업하는 프로젝트에서 커밋을 되돌려야 한다.  
 reset과 revert 중에 어떤 것을 선택할 것인지를 그 이유와 함께 적으시오.
 
-- 답: 이 문장을 지우고 답을 작성하면 됩니다.
+- 답: revert
+reset를 선택하면 협업 중인 github에서는 변경사항이 생기지만 상대의 local workspace에 변경사항이 적용되지 않아 충돌을 일으킬 수 있기 때문이다.
